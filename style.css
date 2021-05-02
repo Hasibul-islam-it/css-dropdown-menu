@@ -6,7 +6,7 @@ display: flex;
 justify-content:center ;
 }
 ul.mainMenu li{
-  background-color: blue;
+  background-color: rgb(32, 32, 49);
   position: relative;
 }
 ul.mainMenu li a{
@@ -41,6 +41,7 @@ ul.web{
     display: none;
     position: absolute;
     left: 100%;
+    top: 20%;
 }
 
 ul.nichermanu li:hover ul.web{
@@ -49,14 +50,22 @@ ul.nichermanu li:hover ul.web{
 ul.nichermanu li:hover ul.graphic{
     display: block;
 }
-ul.graphic{
+ul.graphic, ul.digital{
     margin: 0;
     padding: 0;
     list-style: none;
     display: none;
     position: absolute;
     left: 100%;
+    top: 10%;
 }
 ul.graphic li{
     background-color: rgb(3, 3, 37);
+    color: black;
+}
+ul.nichermanu li:hover ul.digital{
+    display: block;
+}
+ul.digital li{
+    background-color:rgb(94, 12, 33);
 }

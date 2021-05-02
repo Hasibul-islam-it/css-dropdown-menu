@@ -1,0 +1,62 @@
+ul.mainMenu {
+list-style: none;
+margin: 0;
+padding: 0;
+display: flex;
+justify-content:center ;
+}
+ul.mainMenu li{
+  background-color: blue;
+  position: relative;
+}
+ul.mainMenu li a{
+    color: #ffff;
+    text-decoration: none;
+    text-transform: uppercase;
+    display: inline-block;
+    padding: 0.9375rem 1.25rem;
+}
+ul.mainMenu li:hover{
+    background-color: rgb(5, 148, 148);
+}
+ul.nichermanu{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    display: none;
+    position: absolute;
+    top: 100%;
+}
+ul.mainMenu li:hover ul.nichermanu{
+    display: block;
+}
+ul.web li{
+    background-color: rgb(3, 3, 37);
+}
+
+ul.web{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    display: none;
+    position: absolute;
+    left: 100%;
+}
+
+ul.nichermanu li:hover ul.web{
+    display: block;
+}
+ul.nichermanu li:hover ul.graphic{
+    display: block;
+}
+ul.graphic{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    display: none;
+    position: absolute;
+    left: 100%;
+}
+ul.graphic li{
+    background-color: rgb(3, 3, 37);
+}
